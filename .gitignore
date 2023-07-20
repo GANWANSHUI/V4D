@@ -1,0 +1,10 @@
+.idea
+logs
+run_4d_cuda.py
+run_raiden_synthesis.sh
+run_raiden_real.sh
+run_real.sh
+run_synthesis.sh
+run_v4d.py
+run_v4d.sh
+

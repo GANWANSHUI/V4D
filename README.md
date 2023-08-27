@@ -1,5 +1,5 @@
 # V4D: Voxel for 4D Novel View Synthesis
-## Under review
+## Accepted by TVCG
 
 ### [Arxiv paper](https://arxiv.org/abs/2205.14332) 
 [V4D: Voxel for 4D Novel View Synthesis](https://github.com/GANWANSHUI/V4D)   

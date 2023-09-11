@@ -1,5 +1,4 @@
-# V4D: Voxel for 4D Novel View Synthesis
-## TVCG (2023)
+# V4D: Voxel for 4D Novel View Synthesis (TVCG 2023)
 
 ### [Arxiv paper](https://arxiv.org/abs/2205.14332) 
 ### [TVCG Preview](https://ieeexplore-ieee-org.utokyo.idm.oclc.org/abstract/document/10239492?casa_token=TU1WtbBosNsAAAAA:mcGljcO8q31pwB17S1F5hxtK48HHDRC4PQxfgnk-RuhDCF8ha2xnfCvSCawjxMeVbyG3djwZdQ)
@@ -7,10 +6,6 @@
 [Wanshui Gan]()<sup></sup>, [Hongbin Xu]()<sup></sup>, [Yi Huang]()<sup></sup>, [Shifeng Chen]()<sup></sup>, [Naoto Yokoya]()  
 
 ---------------------------------------------------
-
-[//]: # (![block]&#40;./imgs/render_demo.gif&#41;   )
-
-[//]: # (Our method converges very quickly. This is a comparison between D-NeRF &#40;left&#41; and our method &#40;right&#41;. )
 
 ![block](./imgs/overview.png)
 
@@ -71,16 +66,14 @@ python run.py --config configs/dynamic/real/broom.py --render_test --basedir $ba
 
 </details>
 
-
-
+---------------------------------------------------
+![block](./imgs/Table 1.png)
 
 ## Main Results   
 All the source results can be found in this [link.](https://www.dropbox.com/sh/xl27jroucyts8vw/AABhxGL9UmhyYFSwdXZBwWAra?dl=0)
 
-![block](./imgs/Table 1.png)
 
-### Synthetic Scenes
-
+### Simple demo
 
 <p align='center'>
 <img src="./imgs/bouncingballs_disp.gif" width="320px">

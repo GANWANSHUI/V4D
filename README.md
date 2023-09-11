@@ -1,7 +1,8 @@
 # V4D: Voxel for 4D Novel View Synthesis
-## Under review
+## TVCG (2023)
 
 ### [Arxiv paper](https://arxiv.org/abs/2205.14332) 
+### [TVCG Preview](https://ieeexplore-ieee-org.utokyo.idm.oclc.org/abstract/document/10239492?casa_token=TU1WtbBosNsAAAAA:mcGljcO8q31pwB17S1F5hxtK48HHDRC4PQxfgnk-RuhDCF8ha2xnfCvSCawjxMeVbyG3djwZdQ)
 [V4D: Voxel for 4D Novel View Synthesis](https://github.com/GANWANSHUI/V4D)   
 [Wanshui Gan]()<sup></sup>, [Hongbin Xu]()<sup></sup>, [Yi Huang]()<sup></sup>, [Shifeng Chen]()<sup></sup>, [Naoto Yokoya]()  
 
@@ -76,6 +77,7 @@ python run.py --config configs/dynamic/real/broom.py --render_test --basedir $ba
 All the source results can be found in this [link.](https://www.dropbox.com/sh/xl27jroucyts8vw/AABhxGL9UmhyYFSwdXZBwWAra?dl=0)
 
 ### Synthetic Scenes
+
 ![block](./imgs/Table 1.png)
 
 <p align='center'>
@@ -95,10 +97,11 @@ Thanks for their awesome works.
 ## Citation
 If you find this repository/work helpful in your research, welcome to cite the paper and give a ⭐.
 ```
-@article{gan2022v4d,
+@article{gan2023v4d,
   title={V4d: Voxel for 4d novel view synthesis},
   author={Gan, Wanshui and Xu, Hongbin and Huang, Yi and Chen, Shifeng and Yokoya, Naoto},
-  journal={arXiv preprint arXiv:2205.14332},
-  year={2022}
+  journal={IEEE Transactions on Visualization and Computer Graphics},
+  year={2023},
+  publisher={IEEE}
 }
 ```

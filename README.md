@@ -73,12 +73,14 @@ python run.py --config configs/dynamic/real/broom.py --render_test --basedir $ba
 
 
 
+
 ## Main Results   
 All the source results can be found in this [link.](https://www.dropbox.com/sh/xl27jroucyts8vw/AABhxGL9UmhyYFSwdXZBwWAra?dl=0)
 
+![block](./imgs/Table 1.png)
+
 ### Synthetic Scenes
 
-![block](./imgs/Table 1.png)
 
 <p align='center'>
 <img src="./imgs/bouncingballs_disp.gif" width="320px">
@@ -87,6 +89,7 @@ All the source results can be found in this [link.](https://www.dropbox.com/sh/x
 
 [//]: # (### Real Dynamic Scenes)
 
+[//]: # ()
 [//]: # (![block]&#40;./imgs/Table 2.png&#41;)
 
 ## Acknowledgements

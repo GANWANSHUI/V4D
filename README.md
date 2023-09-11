@@ -67,11 +67,11 @@ python run.py --config configs/dynamic/real/broom.py --render_test --basedir $ba
 </details>
 
 ---------------------------------------------------
-![block](./imgs/Table 1.png)
 
 ## Main Results   
 All the source results can be found in this [link.](https://www.dropbox.com/sh/xl27jroucyts8vw/AABhxGL9UmhyYFSwdXZBwWAra?dl=0)
 
+![block](./imgs/Table1.png)
 
 ### Simple demo
 

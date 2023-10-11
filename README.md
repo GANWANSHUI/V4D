@@ -16,13 +16,19 @@ Neural radiance fields have made a remarkable breakthrough in the novel view syn
 
 ## Requirements
 * lpips
-* mmcv
+* mmcv (refer to : https://github.com/open-mmlab/mmcv)
 * imageio
 * imageio-ffmpeg
 * opencv-python
 * pytorch_msssim
 * torch
-* torch_scatter
+* torch_scatter (download the suitable whl file for your envs from https://pytorch-geometric.com/whl/, then pip install ** .whl)
+* torchsearchsorted (refer to : https://github.com/aliutkus/torchsearchsorted)
+
+Try to prepare the envs by 
+``` 
+sh run.sh
+``` 
 
 ## Data Preparation
 **For synthetic scenes:**  
@@ -36,6 +42,7 @@ Change the relative base path in the configs in the code to match your data stru
 ```
 ├── data
 │   ├── nerf_synthetic
+│   │   │──trex
 │   ├
 │   ├── real
 ```
@@ -44,14 +51,14 @@ Change the relative base path in the configs in the code to match your data stru
 ## Train and evaluation
 For training synthetic scenes, such as `trex`, run 
 ``` 
-basedir = Path for save
+basedir=./logs/dynamic_synthesis
 python run.py --config configs/dynamic/synthesis/trex.py --render_test --basedir $basedir
 ```
 set `--video_only` to generate the fixed time, fixed view, and novel view time video, we have not tested this function on real scenes yet.
 
 For training real scenes, such as `broom`, run 
 ``` 
-basedir = Path for save
+basedir =./logs/dynamic_real
 python run.py --config configs/dynamic/real/broom.py --render_test --basedir $basedir
 ``` 
 

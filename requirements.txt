@@ -1,0 +1,11 @@
+numpy==1.19.5
+scipy==1.1.0
+tqdm==4.64.0
+lpips==0.1.4
+mmcv==1.5.3
+imageio==2.15.0
+imageio-ffmpeg==0.4.7
+opencv-python
+pytorch_msssim==0.2.1
+torch==1.10.0
+Pillow==8.4.0
